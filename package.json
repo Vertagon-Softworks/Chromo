@@ -1,0 +1,27 @@
+{
+  "name": "Chromo",
+  "main": "./lib/color-preview",
+  "version": "1.0.0",
+  "description": "Displays previews of colors defined in code in the gutter.",
+  "keywords": [
+    "Chromo",
+    "chromo",
+    "hex",
+    "color",
+    "preview",
+    "gutter",
+    "colors",
+    "rgb"
+  ],
+  "activationCommands": {
+    "atom-workspace": "color-preview:toggle"
+  },
+  "activationHooks": ["core:loaded-shell-environment"],
+  "repository": "https://github.com/atom/color-preview",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
