@@ -14,6 +14,13 @@ The current build is early and thus is limited in features and may contain bugs.
 Look for future updates that will add more features and flatten out those bugs
 and performance issues.
 
+## Known issues
+   - Switching to a non-edtor pane crashes Chromo (Atom must be restarted) and Chromo must be toggled back on
+   - Files with large numbers of colors can experience typing lag
+   - Colors at the start of lines will trigger a preview on the line above them
+
+## Future Features
+
 In the future we hope to support the following features:
    - ANSI escape code colors
    - color constants and variables
