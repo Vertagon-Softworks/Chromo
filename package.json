@@ -1,7 +1,7 @@
 {
   "name": "Chromo",
   "main": "./lib/color-preview",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Displays previews of colors defined in code in the gutter.",
   "keywords": [
     "Chromo",
@@ -16,12 +16,13 @@
   "activationCommands": {
     "atom-workspace": "color-preview:toggle"
   },
-  "activationHooks": ["core:loaded-shell-environment"],
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
   "repository": "https://github.com/Vertagon-Softworks/Chromo.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
