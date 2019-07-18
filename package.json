@@ -17,7 +17,7 @@
     "atom-workspace": "color-preview:toggle"
   },
   "activationHooks": ["core:loaded-shell-environment"],
-  "repository": "https://github.com/atom/color-preview",
+  "repository": "https://github.com/Vertagon-Softworks/Chromo.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
