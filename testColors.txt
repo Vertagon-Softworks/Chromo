@@ -1,0 +1,19 @@
+//red
+//orange
+//yellow
+//green
+//blue
+//indigo
+//violet
+
+//rgb(20,75,44)
+
+//rgba(255,0,255,1)
+//rgba(255,0,255,0.90)
+//rgba(255,0,255,0.75)
+//rgba(255,0,255,0.50)
+//rgba(255,0,255,0.25)
+
+#coolElement {
+  color: #00f335
+}
