@@ -1,7 +1,7 @@
 {
   "name": "Chromo",
   "main": "./lib/color-preview",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Displays color previews for hex, rgb, and ansi codes in the gutter as colored pills.",
   "keywords": [
     "Chromo",
