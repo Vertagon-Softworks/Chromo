@@ -1,7 +1,7 @@
 {
   "name": "Chromo - Color Previews",
   "main": "./lib/color-preview",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description": "Displays color previews for hex, rgb(a), hsl(a), named colors, gradients, and all 255 ansi color codes in the gutter as colored pills.",
   "keywords": [
     "chromo",
