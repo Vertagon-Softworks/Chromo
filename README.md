@@ -4,6 +4,8 @@ Chromo makes working with colors easier by adding color previews to the gutter.
 This gutter can be toggled on or off. Chromo will pick up color names and codes from
 all types of files and text (for this reason it may sometimes pick up colors in places you didn't expect).
 
+More info: [Vertagon Chromo](http://www.vertagon.net/post/chromo.html)
+
 Currently Supported color types
    1. Hex color codes (Ex: #000fff)
    2. RGB color codes (Ex: rgb(0,0,255))
