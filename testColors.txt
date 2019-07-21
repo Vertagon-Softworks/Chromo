@@ -14,6 +14,20 @@
 //rgba(255,0,255,0.50)
 //rgba(255,0,255,0.25)
 
+
 #coolElement {
-  color: #00f335
+  color: #00f335;
+  background-image: linear-gradient(red, orange);
 }
+
+//radial-gradient(circle, red, yellow, green);
+//repeating-radial-gradient(red, yellow 10%, green 15%);
+
+#element2{
+  color: hsl(25, 50%, 50%)
+  background-image: radial-gradient(blue, violet)
+}
+
+const someText = "\u001b[31m Hello World!"
+const otherText = "\u001b[31;1m I'm Brighter!"
+const fancyGreen = "\u001b[38;5;120m Advanced terminal colors!"
