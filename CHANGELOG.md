@@ -1,3 +1,3 @@
-## 0.1.0 - First Release
-* Added features :)
-*
+## 1.6.0
+* Added support for gradients
+* Added support for HSL color codes
