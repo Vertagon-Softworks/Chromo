@@ -14,9 +14,6 @@
     "gradient",
     "pills"
   ],
-  "activationCommands": {
-    "atom-workspace": "color-preview:toggle"
-  },
   "activationHooks": [
     "core:loaded-shell-environment"
   ],
