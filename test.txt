@@ -9,3 +9,5 @@ red yellow
 green blue green purple magenta green red orange
 purple rgb(255, 255, 255)
 red orange yellow green blue
+rebeccapurple
+yellow green yellowgreen
