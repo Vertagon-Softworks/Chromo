@@ -19,7 +19,7 @@ Currently Supported color types
    10. linear gradients (Ex: linear-gradient(green, blue))
    11. radial gradients (Ex: radial-gradient(yellow, green, blue))
 
-![dem image here](./img/chromo_demo1.PNG)
+![demo image here](./img/chromo_demo1.PNG)
 
 ## Multi-Preview Lines
 
@@ -47,3 +47,12 @@ This behavior can be modified in the settings to alternatively use the default
 neutral highlight color of the text editor or to be turned off all together.
 
 ![demo image here](./img/chromo_demo2.PNG)
+
+
+## A Note About ANSI Colors
+
+Chromo attempts to identify common ANSI escape code colors for
+shells. It is important to note that not all shells/terminals
+implement colors in the same ways or at all. Additionally, the
+potential for wildcards and special cases makes it difficult to
+fully predict how an escape code color will look on any platform. For these reasons, please understand that the previews for ANSI colors are only hints and do not necessarily reflect the exact look on any shell. Chromo uses a set of Xterm defined colors as a baseline.
