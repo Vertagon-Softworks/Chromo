@@ -13,7 +13,7 @@ Currently Supported color types
    4. HSL color codes (Ex: hsl(240, 100%, 50%))
    5. HSLa color codes (Ex: hsla(240, 100%, 50%, .5))
    6. CSS color names (Ex: blue, Blue, etc.)
-   7. 8 ansi escape code colors (Ex: \u001b[34m)
+   7. 8 ansi escape code colors (Ex: \u001b[34m, \e[01;34m, etc.)
    8. 16 ansi escape code colors (Ex: \u001b[34;1m)
    9. 255 ansi escape code colors (Ex: \u001b[38;5;4m)
    10. linear gradients (Ex: linear-gradient(green, blue))
