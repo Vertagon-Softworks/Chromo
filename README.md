@@ -19,22 +19,31 @@ Currently Supported color types
    10. linear gradients (Ex: linear-gradient(green, blue))
    11. radial gradients (Ex: radial-gradient(yellow, green, blue))
 
-The current build is early and thus is limited in features and may contain bugs.
-Look for future updates that will add more features and flatten out those bugs
-and performance issues.
+![dem image here](./img/chromo_demo1.PNG)
 
-![capture](./Capture.PNG)
+## Multi-Preview Lines
 
-## Future Features
+By default, each line can display up to 10 previews at a time (can be configured
+to allow more). The gutter will expand to accomodate more preview pills. These previews
+will be displayed in the same order that they appear in the text.
 
-In the future we hope to support the following features:
-   - Option to style text with color preview
-   - Multiple colors per line in gutter
-   - color constants and variables
-   - color values with expressions
-   - Color previews on code suggestions
-   - foreground vs background vs text differentiation
-   - Previews for "currentcolor" css option
-   - Color pickers!
-   - Custom color definitions
-   - Much, Much more
+![demo image here](./img/chromo_demo3.PNG)
+
+## Composite Previews
+
+Some color/gradient types have the potential to contain other colors within them
+such as gradients that use hex codes to identify their colors. By default, these
+"composite" color codes that make up a larger color code will NOT be displayed as
+previews, but this can be turned on in the settings via the "Show Composite Colors"
+option.
+
+![demo image here](./img/chromo_demo4.PNG)
+
+## Color Highlighting
+
+Hovering over a preview pill with your mouse will highlight its respective code
+in the document. By default, the text will be highlighted with the color it represents.
+This behavior can be modified in the settings to alternatively use the default
+neutral highlight color of the text editor or to be turned off all together.
+
+![demo image here](./img/chromo_demo2.PNG)

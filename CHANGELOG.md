@@ -13,6 +13,7 @@
 * Performance Improvements
   - system no longer performs detection while user is typing (this was cool but not all that helpful)
 * Hovering over a color/gradient preview now highlights the color in question
+* Support for alternative ansi color format
 * New Settings
   - toggle previews
   - hover highlight type
