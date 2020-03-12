@@ -15,6 +15,7 @@
 * Hovering over a color/gradient preview now highlights the color in question
 * New Settings
   - toggle previews
+  - hover highlight type
   - supported color types
   - max pills per line
   - show composite colors

@@ -3,6 +3,10 @@
   "main": "./lib/color-preview",
   "version": "1.7.0",
   "description": "Displays color previews for hex, rgb(a), hsl(a), named colors, gradients, and all 255 ansi color codes in the gutter as colored pills.",
+  "author": {
+    "name": "Vertagon Softworks",
+    "url": "https://www.vertagon.net"
+  },
   "keywords": [
     "chromo",
     "hex",
@@ -20,7 +24,7 @@
   "repository": "https://github.com/Vertagon-Softworks/Chromo.git",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.0.0 <3.0.0"
   },
   "dependencies": {}
 }
